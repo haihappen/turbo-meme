@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSPM</title>
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    img {
+      display: block;
+      float: left;
+      width: 50vw;
+      height: 50vh;
+      object-fit: cover;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="gifs"></div>
+
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import("lib/main");
+  </script>
+</body>
+</html>
